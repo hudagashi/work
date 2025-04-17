@@ -1,0 +1,97 @@
+/* Reset basic */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styling */
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fefefe;
+    color: #333;
+  }
+  
+  /* Header */
+  header {
+    background-color: #008080;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Navbar */
+  nav {
+    background-color: #005555;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 10px;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Main content */
+  main {
+    padding: 30px;
+    text-align: center;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #008080;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  .card-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 20px;
+  }
+  
+  .card {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card h3 {
+    color: #008080;
+  }
+  
+  /* Responsive cards */
+  @media (max-width: 768px) {
+    .card {
+      width: 90%;
+    }
+  }
+  
